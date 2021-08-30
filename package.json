@@ -1,0 +1,27 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "capsHub.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twin-2/CAPS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Twin-2/CAPS/issues"
+  },
+  "homepage": "https://github.com/Twin-2/CAPS#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3"
+  }
+}

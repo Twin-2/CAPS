@@ -1,7 +1,7 @@
 # CAPS - Code Academy Postage System
 Creator David Whitmore
 
-## Version Log
+## Version Log: 1.0.0
 8/30/2021 -- 1.0 scafolding set up to generate items, then console log the steps of that item being picked up and delivered.
 
 ## About

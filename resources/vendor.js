@@ -10,16 +10,6 @@ events.on('delivered', (payload) => {
     console.log(`VENDOR: Thank you for delivering item ${payload.orderId}`)
 })
 
-// function pickUp(payload) {
-//     let timestamp = Date.now();
-//     console.log(
-//         'EVENT', {
-//         event: 'pickup',
-//         time: timestamp,
-//         payload: payload
-//     })
-// }
-
 setInterval(() => {
     let newOrder = {
         store: process.env.STORE_NAME,
@@ -28,6 +18,6 @@ setInterval(() => {
         address: faker.address.streetAddress()
     }
     events.emit('pickup', newOrder)
-}, 10000)
+}, 5000)
 
 // module.exports = { pickUp }

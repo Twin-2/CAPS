@@ -17,7 +17,7 @@ events.on('pickup', pickUp)
 function pickUp(payload) {
     let timestamp = Date.now();
     console.log(
-        'EVENT', {
+        'EVENT:', {
         event: 'pickup',
         time: timestamp,
         payload: payload
@@ -29,7 +29,7 @@ events.on('in-transit', inTransit)
 function inTransit(payload) {
     let timestamp = Date.now();
     console.log(
-        'EVENT', {
+        'EVENT:', {
         event: 'in-transit',
         time: timestamp,
         payload: payload
@@ -43,7 +43,7 @@ events.on('delivered', delivered)
 function delivered(payload) {
     let timestamp = Date.now();
     console.log(
-        'EVENT', {
+        'EVENT:', {
         event: 'delivered',
         time: timestamp,
         payload: payload

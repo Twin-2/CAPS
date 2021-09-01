@@ -1,3 +1,4 @@
+
 # CAPS - Code Academy Postage System
 Creator David Whitmore
 
@@ -18,7 +19,7 @@ version 1
 
 version 2
 
-
+![CAPS day 2](https://user-images.githubusercontent.com/81482156/131597520-7fcec68f-a227-408c-9447-6d411787ef6d.png)
 
 ## Tools
 
